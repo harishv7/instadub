@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto:300,400');
+
+.cover-image {
+	/*background-image: url('http://unsplash.com/photos/GdTLaWamFHw/download?force=true');*/
+	background: linear-gradient(#ED8F03, #FFB75E);
+}
+
+body, p {
+	font-family: "Avenir", Raleway, Roboto, sans-serif;
+	color: white;
+	font-weight: 300;
+}
+
+.white-font {
+	color: white;
+	font-family: "Avenir", Raleway, Roboto, sans-serif;
+}
+
+.custom-fonts {
+	font-family: "Avenir", Raleway, Roboto, sans-serif;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.navbar-brand-heading {
+	font-size: 32px;
+}
+
+.header-brand-subtitle {
+	font-size: 10px;
+	text-align: center;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.video-url-input {
+	font-size: 24px;
+	height: 40px;
+	color: black;
+	box-shadow: 2px 2px 5px #888888;
+	background-color: lightgray;
+	border: none;
+	width: 600px;
+}
+
+.lang-url-input {
+	font-size: 20px;
+	height: 40px;
+	color: black;
+	box-shadow: 2px 2px 5px #888888;
+	background-color: lightgray;
+	border: none;
+	width: 300px;
+}
+
+.custom-btn {
+	display: inline-block;
+	width: 200px;
+	padding: 7px;
+	/*margin: 5px;*/
+	font-size: 16px;
+	color: #000;
+	font-family: Avenir, Raleway, Roboto, sans-serif;
+	background-color: transparent;
+	font-weight: 300;
+	border: 2px solid #000;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	cursor: pointer;
+}
+.custom-btn:hover,
+.custom-btn:active {
+	background-color: rgba(206, 93, 93, 0.7);
+	border-color: #000;
+	color: #fff;
+	transition: color 0.3s ease-in,
+		background-color 0.3s ease-in,
+		border-color 0.3s ease-in;
+}
+
+.supported-services {
+	width: 40%;
+}
+
+.customer-reviews {
+	font-weight: 300 !important;
+	font-size: 18px !important;	
+}
+
+.download-now {
+	width: 30%;
+}
+
+.thumbnail {
+	width: 100%;
+}
+
+.custom-dropdown {
+	display: inline-block;
+	width: 200px;
+	padding: 7px;
+	color: #000;
+	font-family: Avenir, Raleway, Roboto, sans-serif;
+	background-color: transparent;
+	font-weight: 300;
+	border: 2px solid #000;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 0px;
+	font-size: 20px;
+	height: 40px;
+	color: black;
+	box-shadow: 2px 2px 5px #888888;
+	background-color: lightgray;
+	border: none;
+	width: 300px;
+}
+.custom-btn:hover,
+.custom-btn:active {
+	background-color: indianred;
+	border-color: #000;
+	color: #fff;
+	transition: color 0.3s ease-in,
+		background-color 0.3s ease-in,
+		border-color 0.3s ease-in;
+}
+
+#video-img {
+	height: 100px;
+}
